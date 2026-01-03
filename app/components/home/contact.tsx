@@ -53,7 +53,7 @@ function Contact(): JSX.Element {
 
                 {/* Optional: Text with contact info */}
                 <p className="mt-10 text-gray-500 text-sm">
-                    Email: <a href="mailto:penninahmuchokimike@gmail.com" className="underline">penninahmuchokimike@gmail.com</a> | Phone: <a href="tel:+254712345678" className="underline">+254 712 345 678</a>
+                    Email: <a href="mailto:penninahmuchokimike@gmail.com" className="underline">penninahmuchokimike@gmail.com</a> | Phone: <a href="tel:+254759559415" className="underline">+254759559415</a>
                 </p>
             </div>
         </section>
