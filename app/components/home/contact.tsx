@@ -1,6 +1,7 @@
 import React, { type JSX } from "react";
 
 function Contact(): JSX.Element {
+
     return (
         <section id="contact" className="py-24 px-6 bg-gray-950">
             <div className="max-w-3xl mx-auto text-center">
