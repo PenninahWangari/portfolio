@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
 
     return (
         <nav className="fixed top-0 w-full bg-gray-950 bg-opacity-90 backdrop-blur-md z-50 shadow-md">
-            <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4 mt-10">
+            <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4 m-5">
                 <div className="text-indigo-400 font-bold text-xl cursor-pointer" onClick={() => handleClick("hero")}>
                     Peninnah Wangari
                 </div>
