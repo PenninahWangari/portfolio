@@ -1,7 +1,14 @@
 import React from "react";
-import bg from "../../assets/bg.jpg"
+import bg from "../../assets/bg.jpg";
 
 const Hero: React.FC = () => {
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gray-950">
             {/* Background Image */}
@@ -29,19 +36,21 @@ const Hero: React.FC = () => {
                 </p>
 
                 <div className="mt-10 flex gap-4 justify-center">
-                    <a
-                        href="/projects"
+                    {/* Scroll to Projects */}
+                    <button
+                        onClick={() => scrollToSection("projects")}
                         className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 transition"
                     >
                         View Projects
-                    </a>
+                    </button>
 
-                    <a
-                        href="/contact"
+                    {/* Scroll to Contact */}
+                    <button
+                        onClick={() => scrollToSection("contact")}
                         className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition"
                     >
                         Contact Me
-                    </a>
+                    </button>
                 </div>
             </div>
         </section>

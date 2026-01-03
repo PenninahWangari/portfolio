@@ -1,6 +1,6 @@
 import React from "react";
 
-const sections = ["hero", "about", "skills", "projects", "contact"];
+const sections = ["about", "skills", "projects", "contact"];
 
 const Navbar: React.FC = () => {
     const handleClick = (id: string) => {
