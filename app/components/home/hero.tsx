@@ -29,11 +29,12 @@ const Hero: React.FC = () => {
                     </span>
                 </h1>
 
-                <p className="mt-6 text-xl text-gray-400 max-w-3xl leading-relaxed">
+                <p className="mt-6 text-xl text-gray-400 max-w-3xl mx-auto text-center leading-relaxed">
                     I build web and mobile applications using React, React Native, Node.js,
                     and Python. I enjoy working across the full stack and I’m currently
                     focusing on AI-powered features that solve real problems.
                 </p>
+
 
                 <div className="mt-10 flex gap-4 justify-center">
                     {/* Scroll to Projects */}
