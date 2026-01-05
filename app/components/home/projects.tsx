@@ -18,7 +18,7 @@ const projects: Project[] = [
     { name: "Club Website", image: club, link: "https://openinstitute-university-club.netlify.app/home" },
     { name: "Real Estate Website", image: realestate, link: "" },
     { name: "Music Search", image: music, link: "https://search-music.netlify.app/" },
-    { name: "Portfolio Website", image: portfolio, link: "https://peninnah-wangari.netlify.app/" },
+    { name: "Portfolio", image: portfolio, link: "https://peninnahportfolio.netlify.app/" },
 ];
 
 function Projects(): JSX.Element {
