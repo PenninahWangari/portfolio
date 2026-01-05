@@ -32,14 +32,14 @@ function Contact(): JSX.Element {
                     </a>
 
                     {/* Optional: LinkedIn */}
-                    <a
+                    {/* <a
                         href="https://www.linkedin.com/in/anitakimanzi/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-6 py-3 rounded-xl border border-gray-700 hover:border-gray-500 transition font-medium"
                     >
                         LinkedIn
-                    </a>
+                    </a> */}
 
                     {/* Optional: GitHub */}
                     {/* <a
